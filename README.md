@@ -1,6 +1,8 @@
 # Inpainting Evaluation Metrics
 The goal of this repo is to provide a common evaluation script for image inpainting tasks. It contains some commonly used image quality metrics for inpainting (e.g., L1, L2, SSIM, PSNR and [LPIPS](https://github.com/richzhang/PerceptualSimilarity)). 
 
+Pull requests and  corrections/suggestions will be cordially appreciated. 
+
 **Note
 - Images are scaled to [0,1]. If you need to change the data range, please make sure to change the data range in SSIM and PSNR.
 - Number of generated images and ground truth images have to be exactly same. 
