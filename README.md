@@ -3,7 +3,7 @@ The goal of this repo is to provide a common evaluation script for image inpaint
 
 Pull requests and  corrections/suggestions will be cordially appreciated. 
 
-**Note
+### Please Note
 - Images are scaled to [0,1]. If you need to change the data range, please make sure to change the data range in SSIM and PSNR.
 - Number of generated images and ground truth images have to be exactly same. 
 - I have resized the images to be (`256,256`). You can change the resolution based on your needs.
