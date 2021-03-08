@@ -1,11 +1,7 @@
-import sys
 import torch.utils.data as data
 from os import listdir
 import os
-import glob
 import re
-import numpy as np
-import fnmatch
 import cv2
 from PIL import Image
 import torchvision.transforms as transforms

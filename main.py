@@ -18,7 +18,7 @@ def main():
     ssim_tensor = 0
     l1_tensor = 0
     l2_tensor = 0
-    lpips_tensor = 0
+    # lpips_tensor = 0
     count = 0
     t0 = time.time()
     print("Calculating image quality metrics ...")

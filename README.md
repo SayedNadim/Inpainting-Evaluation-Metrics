@@ -33,4 +33,4 @@ The goal of this repo is to provide a common evaluation script for image inpaint
 - [ ] IS
 
 ### Acknowledgement
-Thank you [PhotoSynthesis Team](https://github.com/photosynthesis-team/piq) for the wonderful implementation of the metrics.
+Thanks to [PhotoSynthesis Team](https://github.com/photosynthesis-team/piq) for the wonderful implementation of the metrics.
