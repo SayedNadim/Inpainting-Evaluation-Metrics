@@ -14,14 +14,22 @@ The goal of this repo is to provide a common evaluation script for image inpaint
 - piq ( `$ pip install piq` )
 
 ### Usage
+- Usable Arguments
+  - `--input_path` - path to your generated images (required).
+  - `--gt_path` - path to your ground truth images (required).
+  - `--batch_size` - batch size you want to use (Default to 4).
+  - `--image_width` - width of the image (both generated image and ground truth images will be resized to this width. Default to 256).
+  - `--image_height` - width of the image (both generated image and ground truth images will be resized to this width. Default to 256).
+  - `--threads` - threads to be used for multi-processing (Default to 4).
+
 
 - Please provide paths of the folders (i.e., folder of generated images and folder of ground truth images).
 
-`python main.py --input_path path/to/generated/images --gt_path path/to/ground/truth/images --image_shape (256, 256)`
+    `python main.py --input_path path/to/generated/images --gt_path path/to/ground/truth/images`
 
 - If you need to save it in a `.txt` file, then simply run
 
-`python main.py --input_path path/to/generated/images --gt_path path/to/ground/truth/images >> results.txt`
+    `python main.py --input_path path/to/generated/images --gt_path path/to/ground/truth/images >> results.txt`
 
 ### To-do
 - [x] L1
