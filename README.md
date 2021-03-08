@@ -17,7 +17,7 @@ The goal of this repo is the provide a common evaluation script for image inpain
 
 - Please provide paths of the folders (i.e., folder of generated images and folder of ground truth images).
 
-`python quality_metrics.py --input_path path/to/generated/images --gt_path path/to/ground/truth/images`
+`python quality_metrics.py --input_path path/to/generated/images --gt_path path/to/ground/truth/images --image_shape (256, 256)`
 
 - If you need to save it in a `.txt` file, then simply run
 
@@ -33,9 +33,9 @@ The goal of this repo is the provide a common evaluation script for image inpain
 - [ ] IS
 
 ### Optional
-I have two scripts to generate free-form masks and cellur automata masks for inpainting tasks. If you use, please cite the respective authors.
-- `ca_mask_generation.py` generates [cellular automata masks](https://arxiv.org/abs/2010.01110) and saves the corresponding masks based on mask-ratios. 
-- `ff_mask_generation.py` file generates [free-form masks](https://github.com/JiahuiYu/generative_inpainting) and saves the corresponding masks based on mask-ratios.
+I have two scripts to generate free-form masks and cellur automata masks for inpainting tasks. If you use them, please cite the respective authors.
+- `/mask_generation/ca_mask_generation.py` generates [cellular automata masks](https://arxiv.org/abs/2010.01110) and saves the corresponding masks based on mask-ratios. 
+- `/mask_generation/ff_mask_generation.py` file generates [free-form masks](https://github.com/JiahuiYu/generative_inpainting) and saves the corresponding masks based on mask-ratios.
 
 ### Acknowledgement
 Thank you [PhotoSynthesis Team](https://github.com/photosynthesis-team/piq) for the wonderful implementation of the metrics.
