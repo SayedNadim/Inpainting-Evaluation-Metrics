@@ -13,7 +13,7 @@ Pull requests and  corrections/suggestions will be cordially appreciated.
 ### Requirements
 - PyTorch ( `>= 1.0` )
 - Python ( `>=3.5` )
-- piq ( `$ pip install piq` )
+- [PyTorch Image Quality (PIQ)](https://github.com/photosynthesis-team/piq) ( `$ pip install piq` )
 
 ### Usage
 - Usable Arguments
