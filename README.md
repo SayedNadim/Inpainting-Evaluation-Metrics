@@ -4,9 +4,9 @@ The goal of this repo is the provide a common evaluation script for image inpain
 **Note
 - Images are scaled to [0,1]. If you need to change the data range, please make sure to change the data range in SSIM and PSNR.
 - Number of generated images and ground truth images have to be exactly same. 
-- I have resized the images to be (256,256). You can change the resolution based on your needs.
+- I have resized the images to be (`256,256`). You can change the resolution based on your needs.
 - Please make sure that all the images (generated and gt images) are in the corresponding folders. Currently,it can not calculate metrics if there are sub-folders. I will update the code to calculate for sub-folders as well. 
-- LPIPS is a bit slow. So, if you have lots of images, it might take a lot of time. For `~1000 images`, it took around 15 minutes on my personal setup (1 TitanXP). Other metrics are fast and took around 5 seconds to compute. 
+- LPIPS is a bit slow. So, if you have lots of images, it might take a lot of time. For ~1000 images, it took around ~10 minutes on my personal setup (1 TitanXP). Other metrics are fast and took around 5 seconds to compute. 
 
 ### Requirements
 - PyTorch ( `>= 1.0` )
