@@ -36,8 +36,8 @@ class Dataset(data.Dataset):
         img = transforms.Resize(self.image_shape)(img)
         gt = transforms.Resize(self.image_shape)(gt)
 
-        img = transforms.ToTensor()(img)  # turn the image to a tensor
-        gt = transforms.ToTensor()(gt)  # turn the image to a tensor
+        img = transforms.ToTensor()(img)
+        gt = transforms.ToTensor()(gt)
 
         return img, gt
 

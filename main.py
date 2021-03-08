@@ -72,7 +72,7 @@ if __name__ == '__main__':
                         help='', type=str)
     parser.add_argument('--batch_size',
                         help='Batch Size for dataloader. Default = 4', type=int,
-                        default=16)
+                        default=4)
     parser.add_argument('--image_shape',
                         help='Image shape for ground truth images and generated images. Default = [256, 256]',
                         default=[256, 256])
