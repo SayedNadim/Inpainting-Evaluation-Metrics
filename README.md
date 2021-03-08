@@ -43,4 +43,6 @@ Pull requests and  corrections/suggestions will be cordially appreciated.
 - [ ] IS
 
 ### Acknowledgement
-Thanks to [PhotoSynthesis Team](https://github.com/photosynthesis-team/piq) for the wonderful implementation of the metrics.
+Thanks to [PhotoSynthesis Team](https://github.com/photosynthesis-team/piq) for the wonderful implementation of the metrics. Please cite accordingly if you use PIQ for the evaluation.
+
+Cheers!!
