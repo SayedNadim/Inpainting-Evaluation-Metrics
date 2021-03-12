@@ -1,4 +1,4 @@
-# Inpainting Evaluation Metrics
+# Inpainting Evaluation Metrics (On-going)
 The goal of this repo is to provide a common evaluation script for image inpainting tasks. It contains some commonly used image quality metrics for inpainting (e.g., L1, L2, SSIM, PSNR and [LPIPS](https://github.com/richzhang/PerceptualSimilarity)). 
 
 Pull requests and  corrections/suggestions will be cordially appreciated. 
