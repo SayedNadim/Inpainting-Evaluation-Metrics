@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/main_single_gt_folder_multiple_inpainted_subfolders.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/mask_generation.py">
           <value>
             <Attribute>

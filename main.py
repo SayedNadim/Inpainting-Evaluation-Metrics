@@ -67,6 +67,7 @@ def main():
             psnr_tensor / count,
             l1_tensor / count,
             l2_tensor / count))
+    print(count)
     print("Average processing time for each image (of total {} images): {} s".format(count, (t1 - t0) / count))
 
 
@@ -74,10 +75,10 @@ if __name__ == '__main__':
     # Parsing Arguments
     parser = argparse.ArgumentParser(description='script to compute all statistics')
     parser.add_argument('--input_path',
-                        default='',
-                        help='Path to output data', type=str, required=True)
-    parser.add_argument('--gt_path', default='/home/la_belva/PycharmProjects/Comparison_values/val',
-                        help='', type=str, required=True)
+                        default='/home/la_belva/PycharmProjects/Comparison_models/generative_inpainting/test_results_gated_full_places/output/ff_mask/mask_40_50',
+                        help='Path to output data', type=str)
+    parser.add_argument('--gt_path', default='/home/la_belva/PycharmProjects/Comparison_values/places_val_small',
+                        help='', type=str)
     parser.add_argument('--batch_size',
                         help='Batch Size for dataloader. Default = 4', type=int,
                         default=4)
